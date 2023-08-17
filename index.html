@@ -3,11 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>Vite App</title>
+    
+
+    <title> Digitalers | Zapatillas Urbanas</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
-    <h1>probando</h1>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">Digitalers</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex">
+            <a href="pages/carrito.html" class="text-reset me-3">
+              <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <section class="row">
+        <!-- carrousel -->
+      </section>
+      <div class="card col-3 m-4 shadow">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./public/img/jordanair1mid.jpg" class="d-block w-100" alt="Jordan Air 1 Mid">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/img/jordanair1mid2.jpg" class="d-block w-100" alt="Otra Imagen">
+            </div>
+            <div class="carousel-item">
+              <img src="./public/img/jordanair1mid3.jpg" class="d-block w-100" alt="Otra Imagen">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title text-center">JORDAN AIR 1 MID</h5>
+            <ul class="list-unstyled mt-3 mb-4 text-left">
+              <li class="list-group-item">Color</li>
+              <li class="list-group-item">Características</li>
+              <li class="list-group-item">Precio</li>
+            </ul>
+            <a href="#" class="btn btn-dark d-block mx-auto">Comprar</a>
+          </div>
+        </div>
+
+      
+       
+      </section>
+    </main>
+
+    <footer class="container-fluid">
+      
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

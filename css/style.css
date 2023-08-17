@@ -1,4 +1,35 @@
-/*
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-*/
 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@100;400&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #301E67;
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-custom .nav-link, 
+.navbar-custom .nav-link.active {
+    color: #5B8FB9; 
+    font-family: "Roboto";
+    font-style: bold;
+    align-items: center;
+}
+
+.navbar-custom .navbar-brand {
+font-family: "Creepster";
+color: #5B8FB9; 
+font-style: bold;
+font-size: 30px;
+transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #75d7f0; 
+}
