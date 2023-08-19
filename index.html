@@ -15,55 +15,73 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="#">Digitalers</a>
+          <a class="navbar-brand" href="/index.html">Digitalers</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
           <div class="d-flex">
             <a href="pages/carrito.html" class="text-reset me-3">
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-cart-shopping" style="color: #5b8fb9;"></i>
           </a>
         </div>
       </nav>
     </header>
 
     <main class="container-fluid">
+      
       <section class="row">
-        <!-- carrousel -->
+
+        <!--Carrousel de Banner-->
+        <div id="my-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/img/1.jpg" class="d-block w-100" alt="Primera Imagen">
+            </div>
+            <div class="carousel-item">
+              <img src="/img/2.jpg" class="d-block w-100" alt="Segunda Imagen">
+            </div>
+          </div>
+
+
+          <!--Controles del carrousel-->
+          <ol class="carousel-indicators">
+            <li data-bs-target="#my-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#my-carousel" data-bs-slide-to="1"></li>
+          </ol>
+        </div>             
+  
+        
+         
       </section>
-      <div class="card col-3 m-4 shadow">
+
+      <!--Productos-->
+      <div class="card col-3 m-4 shadow bg-dark text-light">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./public/img/jordanair1mid.jpg" class="d-block w-100" alt="Jordan Air 1 Mid">
+              <img src="/img/jordanair1mid.jpg" class="d-block w-100" alt="Jordan Air 1 Mid">
             </div>
             <div class="carousel-item">
-              <img src="./public/img/jordanair1mid2.jpg" class="d-block w-100" alt="Otra Imagen">
+              <img src="/img/jordanair1mid2.jpg" class="d-block w-100" alt="Otra Imagen">
             </div>
             <div class="carousel-item">
-              <img src="./public/img/jordanair1mid3.jpg" class="d-block w-100" alt="Otra Imagen">
+              <img src="/img/jordanair1mid3.jpg" class="d-block w-100" alt="Otra Imagen">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
+          
           </a>
           <div class="card-body">
             <h5 class="card-title text-center">JORDAN AIR 1 MID</h5>
@@ -72,12 +90,11 @@
               <li class="list-group-item">Características</li>
               <li class="list-group-item">Precio</li>
             </ul>
-            <a href="#" class="btn btn-dark d-block mx-auto">Comprar</a>
+            <a href="#" class="btn btn-dark d-block mx-auto btn-resaltar">Comprar</a>
           </div>
         </div>
 
       
-       
       </section>
     </main>
 
