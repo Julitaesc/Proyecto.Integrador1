@@ -13,9 +13,9 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-custom">
+      <nav class="navbar navbar-expand-lg navbar-custom fw-bold">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="/index.html">Digitalers</a>
+          <a class="navbar-brand fw-bold p-1 ml-5" href="/index.html">Digitalers</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,9 +32,10 @@
               </li>
             </ul>
           </div>
+          </div>
           <div class="d-flex">
             <a href="pages/carrito.html" class="text-reset me-3">
-              <i class="fa-solid fa-cart-shopping" style="color: #5b8fb9;"></i>
+              <i class="fa-solid fa-cart-shopping fa-xl"></i>
           </a>
         </div>
       </nav>
@@ -42,9 +43,8 @@
 
     <main class="container-fluid">
       
-      <section class="row">
-
         <!--Carrousel de Banner-->
+        <section class="row">
         <div id="my-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -54,20 +54,17 @@
               <img src="/img/2.jpg" class="d-block w-100" alt="Segunda Imagen">
             </div>
           </div>
-
-
+          
+          
           <!--Controles del carrousel-->
           <ol class="carousel-indicators">
             <li data-bs-target="#my-carousel" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#my-carousel" data-bs-slide-to="1"></li>
           </ol>
-        </div>             
-  
-        
-         
       </section>
 
-      <!--Productos-->
+      <!--Producto 1-->
+      <section class="row my-5">   
       <div class="card col-3 m-4 shadow bg-dark text-light">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -82,6 +79,7 @@
             </div>
           </div>
           
+          
           </a>
           <div class="card-body">
             <h5 class="card-title text-center">JORDAN AIR 1 MID</h5>
@@ -92,11 +90,13 @@
             </ul>
             <a href="#" class="btn btn-dark d-block mx-auto btn-resaltar">Comprar</a>
           </div>
-        </div>
 
+        
+        <!--Producto 2-->
       
       </section>
-    </main>
+    
+      </main>
 
     <footer class="container-fluid">
       

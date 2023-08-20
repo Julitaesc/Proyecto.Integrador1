@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@100;400&family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,11 @@
 }
 
 body {
-background-color: #301E67;
+background-color: #1b1a1b;
 }
 
+
+/*NAVBAR*/
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -17,19 +20,48 @@ background-color: #301E67;
 .navbar-custom .nav-link, 
 .navbar-custom .nav-link.active {
     color: #5B8FB9; 
-    font-family: "Roboto";
-    font-style: bold;
-    align-items: center;
+    font-family: "Roboto", sans-serif;
+    transition: color 0.3s ease;
 }
 
-.navbar-custom .navbar-brand {
-font-family: "Creepster";
-color: #5B8FB9; 
-font-style: bold;
-font-size: 30px;
-transition: color 0.3s ease;
-}
-
+.nav-link:hover,
+.nav-link.active:hover,
+.fa-solid:hover,
 .navbar-brand:hover {
     color: #75d7f0; 
 }
+
+.navbar-custom .navbar-brand {
+font-family: "Creepster", sans-serif;
+color: #5B8FB9; 
+font-size: 30px;
+letter-spacing: 2px;
+transition: color 0.3s ease;
+}
+
+/*Icono carrito */
+
+.fa-solid, .custom-icon {
+    color: #5B8FB9;
+    
+}
+
+/* Botón COMPRAR*/
+
+.btn-resaltar {
+    background-color: #638b94 ; 
+    border-color: #638b94; 
+    color: #000; 
+    font-family: Roboto, bold, sans-serif;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; 
+}
+
+  .btn-resaltar:hover { /*Reacción al pasar el mouse */
+    background-color: #7dc2c3; 
+    border-color: #7dc2c3; 
+    color: #000; 
+}
+
+
+
+
