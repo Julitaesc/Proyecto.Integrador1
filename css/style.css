@@ -13,10 +13,6 @@ background-color: #1b1a1b;
 
 
 /*NAVBAR*/
-.navbar-custom {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 .navbar-custom .nav-link, 
 .navbar-custom .nav-link.active {
     color: #5B8FB9; 
@@ -31,7 +27,7 @@ background-color: #1b1a1b;
     color: #75d7f0; 
 }
 
-.navbar-custom .navbar-brand {
+.navbar-brand {
 font-family: "Creepster", sans-serif;
 color: #5B8FB9; 
 font-size: 30px;
@@ -39,13 +35,41 @@ letter-spacing: 2px;
 transition: color 0.3s ease;
 }
 
-/*Icono carrito */
+/*Iconos*/
 
-.fa-solid, .custom-icon {
+.fa-solid, .custom-icon { 
     color: #5B8FB9;
     
 }
+.nosotros-iconos {
+    margin: 2em 0 0 2em;
+    text-align: center;
+}
 
+.nosotros-iconos ul {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los íconos */
+    gap: 20px;
+}
+
+.fa-facebook:hover {
+color:#3b5998;
+transition: all .4s;
+}
+
+.fa-whatsapp:hover {
+color:#075E54;
+transition: all .4s;
+}
+
+.fa-instagram:hover {
+color:#833AB4;
+transition: all .4s;
+}
+.fa-envelope:hover {
+color:#d93025;
+transition: all .4s;
+}
 /* Botón COMPRAR*/
 
 .btn-resaltar {
@@ -60,6 +84,12 @@ transition: color 0.3s ease;
     background-color: #7dc2c3; 
     border-color: #7dc2c3; 
     color: #000; 
+}
+
+/*Pagina Carrito */
+
+.tarjetas img {
+    width: 65px;
 }
 
 
