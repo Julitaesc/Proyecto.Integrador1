@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@100;400&family=Roboto:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ background-color: #1b1a1b;
 
 .nav-link:hover,
 .nav-link.active:hover,
-.fa-solid:hover,
+.fa-cart-shopping:hover,
 .navbar-brand:hover {
     color: #75d7f0; 
 }
@@ -35,9 +34,17 @@ letter-spacing: 2px;
 transition: color 0.3s ease;
 }
 
+/*Productos*/
+.price-highlight {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente para destacar */
+    font-weight: bold; /* Texto en negrita */ 
+}
+
 /*Iconos*/
 
-.fa-solid, .custom-icon { 
+.custom-icon, 
+.btn-custom,
+.fa-cart-shopping { 
     color: #5B8FB9;
     
 }
@@ -89,9 +96,13 @@ transition: all .4s;
 /*Pagina Carrito */
 
 .tarjetas img {
-    width: 65px;
+    width: 30px;
 }
 
+.btn-custom {
+    background-color: white; /* Cambiar el fondo a negro */
+    border-color: black;
+}
 
 
 
